@@ -2,6 +2,7 @@
 src = 'src'
 out = 'out'
 libs = ['node_modules', 'lib']
+gas_reports = ["*"]
 remappings = [
     '@chainlink/contracts/=node_modules/@chainlink/contracts',
     '@chainlink/contracts-ccip/=node_modules/@chainlink/contracts-ccip',
@@ -21,3 +22,4 @@ metisSepolia = "${METIS_SEPOLIA_RPC_URL}"
 zksyncSepolia = "${ZKSYNC_SEPOLIA_RPC_URL}"
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
+
