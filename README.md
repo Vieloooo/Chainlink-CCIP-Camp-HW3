@@ -68,3 +68,5 @@ Then we test the `ccipReceive` Function under three different condition:
 1. If the receive function works smoothly with no error, the estimated gas would around `214251`. 
 2. If it revoke instantly after the it got the message, the estimated gas would around `264805`. 
 3. If it revoke until the last step (the `Comet.Supply()` function), the estimated gas would around `468688`. 
+
+So to secure the gaslimit should set to `1.1 x 468688`. 
